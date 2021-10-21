@@ -1,6 +1,6 @@
 ﻿using Lexicon.VendingMachine.Model;
 
-namespace Lexicon.VendingMachine
+namespace Lexicon.VendingMachine.Interface
 {
     public interface IVending
     {

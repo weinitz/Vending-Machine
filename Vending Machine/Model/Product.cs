@@ -1,4 +1,5 @@
-﻿using Lexicon.VendingMachine.States;
+﻿using Lexicon.VendingMachine.Interface;
+using Lexicon.VendingMachine.States;
 
 namespace Lexicon.VendingMachine.Model
 {

@@ -1,4 +1,5 @@
 ﻿using Lexicon.VendingMachine.Exception;
+using Lexicon.VendingMachine.Interface;
 using Lexicon.VendingMachine.Model;
 
 namespace Lexicon.VendingMachine.States

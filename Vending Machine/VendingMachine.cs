@@ -2,6 +2,7 @@
 using System.Linq;
 using Lexicon.VendingMachine.Data;
 using Lexicon.VendingMachine.Exception;
+using Lexicon.VendingMachine.Interface;
 using Lexicon.VendingMachine.Model;
 
 namespace Lexicon.VendingMachine

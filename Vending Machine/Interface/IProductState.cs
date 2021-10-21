@@ -1,6 +1,6 @@
 ﻿using Lexicon.VendingMachine.Model;
 
-namespace Lexicon.VendingMachine.States
+namespace Lexicon.VendingMachine.Interface
 {
     public interface IProductState
     {
