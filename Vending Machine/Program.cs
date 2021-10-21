@@ -43,7 +43,7 @@ namespace Lexicon.VendingMachine
 
         private static void Inventory_StockStatusChanged(object sender, StockStatusChangedEventArgs e)
         {
-            if (e.Flag == StockStatusChangedEventArgs.AllProducts) EndTransaction();
+            if (e.Flag == StockStatusFlag.AllProductsOutOfStock) EndTransaction();
         }
 
         private static void EndTransaction()

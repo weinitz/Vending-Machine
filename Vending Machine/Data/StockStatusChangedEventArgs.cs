@@ -1,19 +1,17 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
+using Lexicon.VendingMachine.Model;
 
 namespace Lexicon.VendingMachine.Data
 {
     [ExcludeFromCodeCoverage]
     public class StockStatusChangedEventArgs : EventArgs
     {
-        public StockStatusChangedEventArgs(int flag)
+        public StockStatusChangedEventArgs(StockStatusFlag flag)
         {
             Flag = flag;
         }
 
-        public static int SingleProduct => 0;
-        public static int AllProducts => 1;
-
-        public int Flag { get; }
+        public StockStatusFlag Flag { get; }
     }
 }

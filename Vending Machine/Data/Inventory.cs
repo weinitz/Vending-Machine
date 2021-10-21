@@ -34,8 +34,8 @@ namespace Lexicon.VendingMachine.Data
         protected virtual void OnStockStatusChanged()
         {
             var flag = Products.All(x => x.Stock == 0)
-                ? StockStatusChangedEventArgs.AllProducts
-                : StockStatusChangedEventArgs.SingleProduct;
+                ? StockStatusFlag.AllProductsOutOfStock
+                : StockStatusFlag.SingleProductOutOfStock;
 
             var handler = StockStatusChanged;
             handler?.Invoke(this, new StockStatusChangedEventArgs(flag));
