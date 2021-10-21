@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
-using Lexicon.VendingMachine.Model;
 
-namespace Lexicon.VendingMachine.Data
+namespace Lexicon.VendingMachine.Model
 {
     [ExcludeFromCodeCoverage]
     public class StockStatusChangedEventArgs : EventArgs

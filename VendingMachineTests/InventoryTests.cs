@@ -1,4 +1,5 @@
 ﻿using Lexicon.VendingMachine.Data;
+using Lexicon.VendingMachine.Model;
 using Xunit;
 
 namespace Lexicon.VendingMachineTests
