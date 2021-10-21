@@ -23,7 +23,6 @@ namespace Lexicon.VendingMachine.Data
         }
 
         private static MenuComponent BuildMenu(string name, List<InventoryItem> inventoryItems)
-//        private static Menu BuildMenu(string name, List<InventoryItem> inventoryItems)
         {
             var menu = new Menu(name);
             foreach (var inventoryItem in inventoryItems) menu.Add(new MenuItem(inventoryItem));
